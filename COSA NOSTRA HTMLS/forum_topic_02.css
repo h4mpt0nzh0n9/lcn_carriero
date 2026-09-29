@@ -1,0 +1,83 @@
+.LCN_Carriero_Part2_Container{
+    color: #ffffff;
+    width: 905px;
+    /* width: 100%; */
+}
+.LCN_Carriero_Part2_Container *{
+    font-size: 16px;
+}
+
+.LCN_Carriero_Part2_Container a{
+    color: #bf0000;
+    text-decoration: none;
+}
+
+.LCN_Carriero_Part2_Container a:hover{
+    text-decoration: underline;
+}
+
+.LCN_Carriero_Part2_Header{
+    width: 100%;
+    background-image: url(./images/LCN_BANNER_OOC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    position: relative;
+    border-bottom: 2px solid #838383;
+}
+.LCN_Carriero_Part2_Logo{
+    /* background-image: url(./images/LCN_BANNER_OOC.png); */
+    /* background-image: url(./images/gtaw-lc.png); */
+    background-size: cover;
+    height: 180px;
+    width: 58%;
+    position: absolute;
+    bottom: -5%;
+    right: 5px;
+    transition: 1s ease;
+}
+.LCN_Carriero_Part2_Section{
+    padding: 5px 5px;
+    background-image: url(./images/LCN_SECTION_OOC.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-bottom: 20px !important;
+}
+
+.LCN_Carriero_Part2_Passage{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px #000000;
+    font-size: 16px;
+}
+.LCN_Carriero_Part2_SubTitle{
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 25px;
+    font-size: 52px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.LCN_Carriero_Part2_SubTitle *{
+    font-size: 52px !important;
+}
+
+.LCN_Carriero_Part2_Portal{
+    margin: 10px 0px;
+    background: none;
+}
+.LCN_Carriero_Part2_Portal h2{
+    margin: 5px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.LCN_Carriero_Part2_TopicLink{
+    color: #ffffff !important;
+}
+.LCN_Carriero_Part2_TopicLink:hover{
+    color: #bf0000 !important;
+}

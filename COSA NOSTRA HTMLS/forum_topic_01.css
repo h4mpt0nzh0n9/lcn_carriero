@@ -1,0 +1,126 @@
+.LCN_Carriero_Part1_Container{
+    color: #ffffff;
+    width: 905px;
+    /* width: 100% !important; */
+}
+.LCN_Carriero_Part1_Container *{
+    font-size: 16px;
+}
+
+.LCN_Carriero_Part1_Vessel{
+    background-image: url(./images/LCN_BACKGROUND.png);
+    background-size: cover;
+    background-position: bottom bottom;
+}
+.LCN_Carriero_Part1_Header{
+    width: 100%;
+    background-image: url(./images/LCN_BANNER_TITLE_WITHLOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 272px;
+    position: relative;
+    border-bottom: 2px solid #838383;
+}
+.LCN_Carriero_Part1_iFrame{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.LCN_Carriero_HeaderLogo{
+    /* background-image: url(https://img.picui.cn/free/2025/02/12/67ac6119c7f0b.png); */
+    background-image: url(./images/LCN_LOGO.png);
+    background-size: cover;
+    height: 180px;
+    width: 58%;
+    position: absolute;
+    bottom: -5%;
+    right: 5px;
+    transition: 1s ease;
+    animation: GlowingLogo 2s infinite alternate;
+}
+/* 
+@keyframes GlowingLogo{
+    0%{background-image: url(https://img.picui.cn/free/2025/02/12/67ac6119c7f0b.png);}
+    100%{background-image: url(https://img.picui.cn/free/2025/02/12/67ac611aa50c8.png);}
+} */
+
+.LCN_Carriero_Part1_Section{
+    padding: 5px 5px;
+    /* margin: 5px 5px; */
+}
+.LCN_Carriero_Part1_Section[ class *= "Flex" ]{
+    display: flex; }
+
+.Part1_Section_01{
+    background-image: url(./images/LCN_SECTION_01.png);
+    background-size: cover;
+    background-position: center center;
+}
+.Part1_Section_02{
+    justify-content: space-between;
+}
+.Part1_Section_03{
+    justify-content: space-between;
+    /* background-image: url(./images/LCN_SECTION_02.png); */
+    background-size: cover;
+}
+.Part1_Section_04{
+    background-image: url(./images/LCN_SECTION_02_WITHTREE.png);
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.Part1_Section_05{
+    background-image: url(./images/271590_20250208160004_1.png);
+    background-size: cover;
+    background-position: center center;
+}
+.LCN_Carriero_Part1_BlockFeature{
+    background-color: #bf0000;
+    width: 50%;
+    margin: 0px 3px;
+    height: 200px;
+    display: inline-block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    transition: 1s ease;
+}
+.Part1_Feature_01{
+    background-image: url(./images/LCN_PIC_01.png);
+}
+.Part1_Feature_02{
+    background-image: url(./images/LCN_PIC_02.png);
+}
+.Part1_Feature_03{
+    background-image: url(./images/LCN_PIC_03.png);
+}
+.Part1_Feature_ScrollText{
+    height: 100%;
+    position: relative;
+    padding: 5px 5px;
+    bottom: -80%;
+    transition: 1s ease;
+    background: linear-gradient(rgba(255,255,255,0),rgba(0, 0, 0, 1));
+}
+.Part1_Feature_ScrollText p{
+    line-height: 1.6em;
+    font-size: 14px;
+}
+.LCN_Carriero_Part1_BlockFeature:hover .Part1_Feature_ScrollText{
+    bottom: 0;
+}
+.LCN_Carriero_Part1_Element_Smuggling{
+    background-image: url(./images/LCN_PIC_SMUGGLING.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 448px;
+    height: 300px;
+}
+.LCN_Carriero_Part1_Passage{
+    text-indent: 2em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-shadow: 3px 3px 5px #000000;
+    font-size: 16px;
+}
